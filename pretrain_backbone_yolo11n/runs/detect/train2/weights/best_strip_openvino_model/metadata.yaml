@@ -1,0 +1,81 @@
+description: Ultralytics YOLO11n_uib_backbone model trained on C:\Users\Dell Precision
+  5820\OneDrive\Desktop\chi_Tam_yolo11n\yolo11n\data.yaml
+author: Ultralytics
+date: '2026-01-19T14:13:04.454435'
+version: 8.3.245
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: objects-G3Zw-orpg-traffic-sign-1TU9-U4is
+  1: 102-cam-di-nguoc-chieu
+  2: 103a-cam-oto
+  3: 103b-cam-oto-re-phai
+  4: 103c-cam-oto-re-trai
+  5: 106-cam-oto-tai
+  6: 107-cam-oto-khach-va-oto-tai
+  7: 123a-cam-re-trai
+  8: 123b-cam-re-phai
+  9: 124a-cam-quay-dau-xe
+  10: 124b-cam-oto-quay-dau-xe
+  11: 124c-cam-re-trai-va-cam-quay-dau-xe
+  12: 125-cam-vuot
+  13: 127-toc-do-toi-da-100
+  14: 127-toc-do-toi-da-20
+  15: 127-toc-do-toi-da-30
+  16: 127-toc-do-toi-da-40
+  17: 127-toc-do-toi-da-50
+  18: 127-toc-do-toi-da-60
+  19: 127-toc-do-toi-da-70
+  20: 127-toc-do-toi-da-80
+  21: 127-toc-do-toi-da-90
+  22: 128-cam-su-dung-coi
+  23: 130-cam-dung-va-do-xe
+  24: 131a-cam-do-xe
+  25: 131b-cam-do-xe-ngay-le
+  26: 131c-cam-do-xe-ngay-chan
+  27: 133-het-cam-vuot
+  28: 134-het-han-che-toc-do-toi-da
+  29: 135-het-tat-ca-cac-lenh-cam
+  30: 136-cam-di-thang
+  31: 137-cam-re-trai-va-re-phai
+  32: 201-cho-ngoat-nguy-hiem
+  33: 203-duong-bi-hep
+  34: 205-duong-giao-nhau
+  35: 207-giao-nhau-voi-duong-khong-uu-tien
+  36: 208-giao-nhau-voi-duong-uu-tien
+  37: 209-giao-nhau-co-tin-hieu-den
+  38: 221-duong-go-ghe
+  39: 224-duong-nguoi-di-bo-cat-ngang
+  40: 225-chu-y-tre-em
+  41: 227-cong-truong
+  42: 245-di-cham
+  43: 301a-cac-xe-chi-duoc-di-thang
+  44: 301b-cac-xe-chi-duoc-re-phai
+  45: 301c-cac-xe-chi-duoc-re-trai
+  46: 301d-cac-xe-chi-duoc-re-phai-2
+  47: 301e-cac-xe-chi-duoc-re-trai-2
+  48: 301h-cac-xe-chi-duoc-di-thang-va-re-trai
+  49: 302a-huong-phai-di-vong-chuong-ngai-vat-1
+  50: 303-noi-giao-nhau-chay-theo-vong-xuyen
+  51: 306-toc-do-toi-thieu-60
+  52: 407a-duong-mot-chieu
+  53: 420-bat-dau-khu-dong-dan-cu
+  54: 421-ket-thuc-khu-dong-dan-cu
+  55: 423a-duong-nguoi-di-bo-sang-ngang-1
+  56: 437-bat-dau-duong-cao-toc
+  57: 438-ket-thuc-duong-cao-toc
+  58: 442-cho
+args:
+  batch: 1
+  fraction: 1.0
+  half: true
+  int8: false
+  dynamic: false
+  nms: false
+channels: 3
